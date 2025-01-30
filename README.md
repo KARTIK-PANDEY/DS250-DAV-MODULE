@@ -1,7 +1,5 @@
-% Required for inserting images
-
-# DS250 (DAV) Class Module
-**Author:** DR.GAGAN RAJ GUPTA 
+# DS250 (DAV) Module
+**Author:** KARTIK PANDEY
 **Date:** January 2025
 
 ## Introduction
@@ -14,8 +12,6 @@
 1. **HISTOGRAMS**:-
 
 
-
- 
 A histogram is a graphical representation of the distribution of data. It divides the entire range of values into intervals (called bins) and counts the number of data points that fall into each bin.
 
  
@@ -38,7 +34,6 @@ Here,  and  are the edges of the -th bin.
 k =  _2(n) + 1 
 
 2. Plot the frequencies using bar heights.
-
 
 
 Python Code Example:-
@@ -64,7 +59,6 @@ plt.ylabel('Frequency')
 plt.show()
 
 
-
 *ACTIVITY ON HISTOGRAM:- *
 
 ### Part A: Word Length Histogram
@@ -81,9 +75,7 @@ Create a histogram that represents the frequency of words based on their length 
          **X-axis**: Word lengths.
          **Y-axis**: Frequency of words of each length.
     
- 
-
-### Part B: Starting Letter Histogram
+ ### Part B: Starting Letter Histogram
 *{Objective}
 Create a histogram to analyze the frequency of words starting with each letter of the alphabet.
 
@@ -99,9 +91,6 @@ Create a histogram to analyze the frequency of words starting with each letter o
 
     
     [width=0.6 , angle=270]{word length.jpg}
-    
-    
-
     
     [width=0.7]{word_length Distribution.jpeg}
     
@@ -127,17 +116,9 @@ where  t  represents time (from the beginning to today).
     
          **X-axis**: Time ( t 
          **Y-axis**: Weight ( w(t)  or Height ( h(t) 
-    
- 
-
-    
+      
     [width=0.8]{starting_letter_frequency.jpg}
     
-    
- 
-
-**Click here to watch the video:** {Watch Video}
-
 *ANSWER THE FOLLOWING QUESTIONS*
 
 Q1. A. PLot the histogram on the basis of word length of any Paragraph of your preferred book.
@@ -164,17 +145,6 @@ E. Import a real-world dataset (e.g., Iris dataset).
 
 Plot histograms for numerical columns like petal length or sepal width.
      
-     
-
----
-
-
-
-\ 
-\ 
-\ 
-\ 
-
 2. **HEAT MAPS**
 
 A heatmap is a data visualization technique used to represent data in a
@@ -194,8 +164,6 @@ c_{ij} = C(a_{ij})
 
 3. Visualize the data as a grid.
 
-
-
 **Python Code Example:-**
 
 import seaborn as sns
@@ -214,13 +182,8 @@ sns.heatmap(data, annot=True, cmap='viridis')
 
 plt.title('Heatmap')
 
-
-
 Part 1: **Basics of Vector Algebra**
-
-
-
- 1.1 **Vectors**
+1.1 **Vectors**
 
 A vector is a quantity that has both magnitude and direction. It can be represented in the Cartesian coordinate system with components along the x, y, and z axes. 
 
@@ -231,7 +194,6 @@ For example, a vector  in two-dimensional space can be written as:
 where:
 -  A_x  and  A_y  are the components of the vector along the x and y axes, respectively.
 -  and  are the unit vectors along the x and y axes.
-
 
 
 1.2 **Vector Operations**:-
@@ -256,20 +218,15 @@ where  is the unit vector along the z-axis.
 
     
     [width=0.7]{vector matrix.jpg}
-    
-    
+    ---
 
----
 ### Part 2: **Tug of War Problem**
 
 In this problem, we will model a tug of war scenario where three people are pulling a rope from different directions. The goal is to determine the resulting force on the rope by calculating the Vector that is  sum of all the individual forces.
 
 #### **2.1 Problem Description**
 
-
-
 Three people are pulling on a rope from different directions:
-
 
 - Person 1 applies a force of  _1 = 10  + 5   Newtons.\ 
 
@@ -279,8 +236,6 @@ Three people are pulling on a rope from different directions:
 
 We will calculate the net force on the rope by adding these vectors together and analyze the direction and magnitude of the result.
 
-
-
 2.2 *Steps to solve:-*
 
 1. Add the vectors  _1, _2,  and  _3  
@@ -289,10 +244,7 @@ We will calculate the net force on the rope by adding these vectors together and
 
 3. Analyze the direction of the resultant vector.
 
-
 \ 
-\ 
-
 **ACTIVITY**:-
 
 ### Activity: Understanding Vectors through Tug of War
@@ -324,8 +276,7 @@ We will determine the net force on the rope by calculating the vector sum of  _1
         &=  
         &=   7.81  .
     
-
-     Analyze the direction of the resultant vector:
+   Analyze the direction of the resultant vector:
     
          &= ^{-1} ( } ) 
         &= ^{-1} ( {5} ) 
@@ -349,9 +300,7 @@ Challenge students to:
     
     [width=0.7]{VECTOR.jpg}
     
-    
-
----
+  ---
 
 Part 3: *Python Implementation*
 
@@ -387,15 +336,10 @@ print("Net Force Vector (F_net):", net_force)
 print("Magnitude of Net Force:", magnitude, "Newtons")
 
 print("Direction of Net Force:", direction_degrees, "degrees") 
-
-
-
 ---
 \ 
  \ 
-  \
 
-   
 **Output:**
 
 Net Force Vector (F_net): [5 6]
@@ -404,23 +348,10 @@ Magnitude of Net Force: 7.810249675906654 Newtons
 
 Direction of Net Force: 50.19442890773457 degrees. 
 
-**Click here to watch the video: **{Watch Video}
-
-**Click here to watch the video: **{Watch Video} 
-
-**Click here to watch the video: **{Watch Video} 
-
 
 \ 
- \ 
- \ 
- \  
- \ 
-   \ 
-   \ 
-   \ 
 
-   **CONDITIONAL PROBABILITY:-**
+ **CONDITIONAL PROBABILITY:-**
 
 Conditional probability is the probability of an event occurring given that another event has already occurred. In other words, it quantifies the likelihood of an event  A  happening, under the condition that event  B  is known to have occurred. The conditional probability of  A  given  B  is denoted as  P(A | B)  and it is calculated using the formula:
 
@@ -612,14 +543,8 @@ print("P(A | B) =", P_A_given_B)
 
 ### Output:
 
-text
-
 P(A | B) = 0.6666666666666666
 
 This Python code confirms our theoretical calculation that the conditional probability of event A given event B is  {3}  
 
-**Click here to watch the video: **{Watch Video} 
-
-**Click here to watch the video: **{Watch Video} 
-
-**Click here to watch the video: **{Watch Video}
+KEEP LEARNING, KEEP GROWING :) 
