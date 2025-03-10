@@ -94,7 +94,8 @@ Create a histogram to analyze the frequency of words starting with each letter o
     
     [width=0.7] 
     
-   ![Word Length Distribution]{word_length Distribution.jpeg}
+   
+![Word Length Distribution]{word_length Distribution.jpeg}
     
     
 
